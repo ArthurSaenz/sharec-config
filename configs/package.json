@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "web-scripts dev:app",
+    "start:clean": "rimraf dist .cache node_modules/@arters  && npm i && web-scripts start:spa",
+    "build": "web-scripts build:app",
+    "lint": "web-scripts lint"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@arters/web-scripts": "^0.1.0",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "react-hot-loader": "^4.12.18",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

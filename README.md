@@ -1,2 +1,3 @@
 # sharec-config
-Best parctices and configs for project
+
+Sharec config for core functionality demonstration

@@ -1,0 +1,37 @@
+{
+  "name": "@arters/sharec-config",
+  "version": "0.1.0",
+  "description": "Sharec config for core functionality demonstration",
+  "keywords": [
+    "arters",
+    "sharec",
+    "sharec-config"
+  ],
+  "scripts": {
+    "postinstall": "sharec install"
+  },
+  "author": "Arthur Saenz <arthur.saenz7@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ArthurSaenz/sharec-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurSaenz/sharec-config"
+  },
+  "files": [
+    "configs/*",
+    "!configs/node_modules",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "sharec": "^2.14.0-beta"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "extends": "@arters/eslint-config"
+}
